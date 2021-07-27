@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="73" total="74" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing FedCap" duration-ms="69041" started-at="2021-07-26T19:18:45 IST" finished-at="2021-07-26T19:19:54 IST">
+    <groups>
+    </groups>
+    <test name="login page test case" duration-ms="67955" started-at="2021-07-26T19:18:45 IST" finished-at="2021-07-26T19:19:53 IST">
+      <class name="fedcap.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:fedcap.Login@65e2dbf3]" name="login" duration-ms="67641" started-at="2021-07-26T19:18:46 IST" finished-at="2021-07-26T19:19:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:fedcap.Login@65e2dbf3]" name="tearDown" is-config="true" duration-ms="144" started-at="2021-07-26T19:19:53 IST" finished-at="2021-07-26T19:19:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:fedcap.Login@65e2dbf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fedcap.Login -->
+    </test> <!-- login page test case -->
+    <test name="opp page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- opp page test cases -->
+    <test name="opp ligthing page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- opp ligthing page test cases -->
+    <test name="Resource budge page test cases" duration-ms="1" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Resource budge page test cases -->
+    <test name="Pwin page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Pwin page test cases -->
+    <test name="customizeOpplayout page test cases" duration-ms="1" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- customizeOpplayout page test cases -->
+    <test name="strategic Selling score card admin page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- strategic Selling score card admin page test cases -->
+    <test name="Relationship mapper page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Relationship mapper page test cases -->
+    <test name="Acoount Relationship mapper page test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Acoount Relationship mapper page test cases -->
+    <test name="Admin related list layout and account related tab page test cases(Dynamic edit related list)" duration-ms="1" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Admin related list layout and account related tab page test cases(Dynamic edit related list) -->
+    <test name="Contract create wizard page test cases(Dynamic edit related list)" duration-ms="1" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Contract create wizard page test cases(Dynamic edit related list) -->
+    <test name="Createcontract test cases" duration-ms="1" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Createcontract test cases -->
+    <test name="Opprquickcreate test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Opprquickcreate test cases -->
+    <test name="Aprrovalprocess test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Aprrovalprocess test cases -->
+    <test name="Autopopulate test cases" duration-ms="0" started-at="2021-07-26T19:19:54 IST" finished-at="2021-07-26T19:19:54 IST">
+    </test> <!-- Autopopulate test cases -->
+  </suite> <!-- Testing FedCap -->
+</testng-results>

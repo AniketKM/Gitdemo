@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing FedCap">
+
+   <!--   <listeners>
+    <listener class-name="fedcap.Listeners"/>
+        </listeners> -->
+        
+    <test name="login page test case">
+        <classes>
+       <class name="fedcap.Login">
+       <methods>
+       <include name="login" />
+       </methods>
+       </class>
+       </classes>
+       </test>
+       
+                <test name="opp page test cases">
+                <classes>
+                <class name="fedcap.Opportunity">
+                <methods>
+                <exclude name="CreateNewOpportunity" />
+                <exclude name="editOpportunitybypencilicon" />
+                <exclude name="editOpportunitybyeditbutton" />
+                <exclude name="cloneOpportunity" />
+                <exclude name="changeownerOpportunity" />
+                </methods>
+                </class>
+                </classes>
+                </test>
+                
+        <test name="opp ligthing page test cases">
+        <classes>
+        <class name="fedcap.Opportunitylighting">
+        <methods>
+        <exclude name="CreateNewOpportunity" />
+        <exclude name="editOpportunitybypencilicon" />
+        <exclude name="editOpportunitybyeditbutton" />
+        <exclude name="cloneOpportunity" />
+        <exclude name="changeownerOpportunity" />
+        </methods>
+        </class>
+        </classes>
+        </test>
+        
+                 <test name="Resource budge page test cases">
+                 <classes>
+                 <class name="fedcap.Resourcebudget">
+                 <methods>
+                 <exclude name="CreateNewlaborcategory" />
+                 <exclude name="CreateNewEmployee" />
+                 <exclude name="rsAdddeletelabemp" />
+                 <exclude name="rsAddlab" />
+                 <exclude name="rsAddlabempnotime" />
+                 <exclude name="rsAddlabempwithmoretime" />
+                 <exclude name="rsCostHourScheduledHours" />
+                 <exclude name="rsAddemp" />
+                 <exclude name="rsAddexpense" />
+                 <exclude name="rsStartenddatemorethan60days" />
+                 <exclude name="rsDisplayunit" />
+                 </methods>
+                 </class>
+                 </classes>
+                 </test> 
+        
+  <test name="Pwin page test cases">
+                 <classes>
+                 <class name="fedcap.Pwin">
+                 <methods>
+                 <exclude name="Pwinquestion" />
+                 <exclude name="AddiingQuestions" />
+                 <exclude name="deleteQuestionsandtheiroptions" />
+                 <exclude name="cloneQuestion" />
+              </methods>
+                 </class>
+                 </classes>
+                 </test>
+                 
+               <test name="customizeOpplayout page test cases">
+                 <classes>
+                 <class name="fedcap.Customizeopplayout">
+                 <methods>
+                 <exclude name="addFields" />
+                 <exclude name="editFields" />
+                 <exclude name="deleteFields" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>
+                 
+   <test name="strategic Selling score card admin page test cases">
+                 <classes>
+                 <class name="fedcap.Strategicsellingscorecardadmin">
+                 <methods>
+                 <exclude name="addQuestions" />
+                 <exclude name="getCurrentstatus" />
+                 <exclude name="getPrintpreview" />
+                 <exclude name="getStagenameanswer" />
+                 <exclude name="getStagprint" />
+                 <exclude name="selectStagestandardlevel" />
+                 <exclude name="editStagesdetailpage" />
+                 <exclude name="editStageseditpage" />
+                 <exclude name="OverdueWinnabilityItems" />
+                 <exclude name="RecentStagequestionselect" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>  
+                 
+  <test name="Relationship mapper page test cases">
+                 <classes>
+                 <class name="fedcap.Relationshipmapper">
+                 <methods>
+                 <exclude name="addContact" />
+                 <exclude name="addsubContact" />
+                 <exclude name="addContanttooppr" />
+                 <exclude name="addTasktocontactcard" />
+                 <exclude name="sendMailfromcontactcard" />
+                 <exclude name="addNotestocontactcard" />
+                 <exclude name="editcontactRoleofcontactcard" />
+                 <exclude name="editRelationshipinformationofcontactcard" />
+                 <exclude name="zoominoutcollapseexpandrefreshprintofcontactcard" />
+                 <exclude name="fullViewofcontactcard" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>     
+                              
+              <test name="Acoount Relationship mapper page test cases">
+                 <classes>
+                 <class name="fedcap.Acoountrelationshipmapper">
+                 <methods>
+                 <exclude name="addAccount" />
+                 <exclude name="addContacttoaccount" />
+                 <exclude name="addsubContact" />
+                 <exclude name="addTasktocontactcard" />
+                 <exclude name="sendMailfromcontactcard" />
+                 <exclude name="addNotestocontactcard" />
+                 <exclude name="editRelationshipinformationofcontactcard" />
+                 <exclude name="zoominoutcollapseexpandrefreshprintofcontactcard" />
+                 <exclude name="fullViewofcontactcard" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>  
+          
+  <test name="Admin related list layout and account related tab page test cases(Dynamic edit related list)">
+                 <classes>
+                 <class name="fedcap.Adminrelatedlistlayout">
+                 <methods>
+                 <exclude name="addcaseComponent" />
+                 <exclude name="editcaseComponent" />
+                 <exclude name="deletecaseComponent" />
+                 <exclude name="adddeleterecordtoCasecomponent" />
+                 <exclude name="newrecordandexporttoCasecomponent" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>   
+                 
+                 <test name="Contract create wizard page test cases(Dynamic edit related list)">
+                 <classes>
+                 <class name="fedcap.Contractcreatewizard">
+                 <methods>
+                 <exclude name="addSectionandfield" />
+                 <exclude name="editSectionandfield" />
+                 <exclude name="rearrageneFields" />
+                 <exclude name="rearrageneSections" />
+                 <exclude name="cloneSection" />
+                 <exclude name="deleteSectionandfield" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>  
+                 
+          <test name="Createcontract test cases">
+                 <classes>
+                 <class name="fedcap.Createcontract">
+                 <methods>
+                 <exclude name="creatingContract" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>          
+    <test name="Opprquickcreate test cases">
+                 <classes>
+                 <class name="fedcap.Opprquickcreate">
+                 <methods>
+                 <exclude name="CreateNewOpportunity" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>  
+ <test name="Aprrovalprocess test cases">
+                 <classes>
+                 <class name="fedcap.Aprrovalprocess">
+                 <methods>
+                 <exclude name="sendAprrovalprocess" />
+                </methods>
+                 </class>
+                 </classes>
+                 </test>  
+                   
+                <test name="Autopopulate test cases">
+                 <classes>
+                 <class name="fedcap.Autopopulate">
+                 <methods>
+                 <exclude name="getAccountautopopulate" />
+                 <exclude name="getOpprautopopulate" />
+                 <exclude name="getContactsautopopulate" />
+           
+                </methods>
+                 </class>
+                 </classes>
+                 </test>                  
+                 
+      <!-- Test -->
+</suite> <!-- Suite -->
+

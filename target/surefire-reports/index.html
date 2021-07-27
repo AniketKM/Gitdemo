@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Testing_FedCap">
+              <span class="suite-name border-passed">Testing FedCap</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Testing_FedCap">
+                    <span>C:\Automation\Test\fedcap\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Testing_FedCap">
+                    <span class="test-stats">15 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Testing_FedCap">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Testing_FedCap">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Testing_FedCap">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Testing_FedCap">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Testing_FedCap">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_FedCap" class="hide-methods passed suite-Testing_FedCap"> (hide)</a> <!-- hide-methods passed suite-Testing_FedCap -->
+                      <a href="#" panel-name="suite-Testing_FedCap" class="show-methods passed suite-Testing_FedCap"> (show)</a> <!-- show-methods passed suite-Testing_FedCap -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_FedCap">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_FedCap" title="fedcap.Login" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_FedCap -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_FedCap" class="panel Testing_FedCap">
+          <div class="suite-Testing_FedCap-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">fedcap.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_FedCap-class-passed -->
+        </div> <!-- panel Testing_FedCap -->
+        <div panel-name="test-xml-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\Test\fedcap\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Testing FedCap&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;login page test case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login page test case --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;opp page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Opportunity&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;CreateNewOpportunity&quot;/&gt;
+          &lt;exclude name=&quot;editOpportunitybypencilicon&quot;/&gt;
+          &lt;exclude name=&quot;editOpportunitybyeditbutton&quot;/&gt;
+          &lt;exclude name=&quot;cloneOpportunity&quot;/&gt;
+          &lt;exclude name=&quot;changeownerOpportunity&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Opportunity --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- opp page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;opp ligthing page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Opportunitylighting&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;CreateNewOpportunity&quot;/&gt;
+          &lt;exclude name=&quot;editOpportunitybypencilicon&quot;/&gt;
+          &lt;exclude name=&quot;editOpportunitybyeditbutton&quot;/&gt;
+          &lt;exclude name=&quot;cloneOpportunity&quot;/&gt;
+          &lt;exclude name=&quot;changeownerOpportunity&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Opportunitylighting --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- opp ligthing page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Resource budge page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Resourcebudget&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;CreateNewlaborcategory&quot;/&gt;
+          &lt;exclude name=&quot;CreateNewEmployee&quot;/&gt;
+          &lt;exclude name=&quot;rsAdddeletelabemp&quot;/&gt;
+          &lt;exclude name=&quot;rsAddlab&quot;/&gt;
+          &lt;exclude name=&quot;rsAddlabempnotime&quot;/&gt;
+          &lt;exclude name=&quot;rsAddlabempwithmoretime&quot;/&gt;
+          &lt;exclude name=&quot;rsCostHourScheduledHours&quot;/&gt;
+          &lt;exclude name=&quot;rsAddemp&quot;/&gt;
+          &lt;exclude name=&quot;rsAddexpense&quot;/&gt;
+          &lt;exclude name=&quot;rsStartenddatemorethan60days&quot;/&gt;
+          &lt;exclude name=&quot;rsDisplayunit&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Resourcebudget --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Resource budge page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Pwin page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Pwin&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;Pwinquestion&quot;/&gt;
+          &lt;exclude name=&quot;AddiingQuestions&quot;/&gt;
+          &lt;exclude name=&quot;deleteQuestionsandtheiroptions&quot;/&gt;
+          &lt;exclude name=&quot;cloneQuestion&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Pwin --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pwin page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;customizeOpplayout page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Customizeopplayout&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addFields&quot;/&gt;
+          &lt;exclude name=&quot;editFields&quot;/&gt;
+          &lt;exclude name=&quot;deleteFields&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Customizeopplayout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- customizeOpplayout page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;strategic Selling score card admin page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Strategicsellingscorecardadmin&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addQuestions&quot;/&gt;
+          &lt;exclude name=&quot;getCurrentstatus&quot;/&gt;
+          &lt;exclude name=&quot;getPrintpreview&quot;/&gt;
+          &lt;exclude name=&quot;getStagenameanswer&quot;/&gt;
+          &lt;exclude name=&quot;getStagprint&quot;/&gt;
+          &lt;exclude name=&quot;selectStagestandardlevel&quot;/&gt;
+          &lt;exclude name=&quot;editStagesdetailpage&quot;/&gt;
+          &lt;exclude name=&quot;editStageseditpage&quot;/&gt;
+          &lt;exclude name=&quot;OverdueWinnabilityItems&quot;/&gt;
+          &lt;exclude name=&quot;RecentStagequestionselect&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Strategicsellingscorecardadmin --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- strategic Selling score card admin page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Relationship mapper page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Relationshipmapper&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addContact&quot;/&gt;
+          &lt;exclude name=&quot;addsubContact&quot;/&gt;
+          &lt;exclude name=&quot;addContanttooppr&quot;/&gt;
+          &lt;exclude name=&quot;addTasktocontactcard&quot;/&gt;
+          &lt;exclude name=&quot;sendMailfromcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;addNotestocontactcard&quot;/&gt;
+          &lt;exclude name=&quot;editcontactRoleofcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;editRelationshipinformationofcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;zoominoutcollapseexpandrefreshprintofcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;fullViewofcontactcard&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Relationshipmapper --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Relationship mapper page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Acoount Relationship mapper page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Acoountrelationshipmapper&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addAccount&quot;/&gt;
+          &lt;exclude name=&quot;addContacttoaccount&quot;/&gt;
+          &lt;exclude name=&quot;addsubContact&quot;/&gt;
+          &lt;exclude name=&quot;addTasktocontactcard&quot;/&gt;
+          &lt;exclude name=&quot;sendMailfromcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;addNotestocontactcard&quot;/&gt;
+          &lt;exclude name=&quot;editRelationshipinformationofcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;zoominoutcollapseexpandrefreshprintofcontactcard&quot;/&gt;
+          &lt;exclude name=&quot;fullViewofcontactcard&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Acoountrelationshipmapper --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Acoount Relationship mapper page test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Admin related list layout and account related tab page test cases(Dynamic edit related list)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Adminrelatedlistlayout&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addcaseComponent&quot;/&gt;
+          &lt;exclude name=&quot;editcaseComponent&quot;/&gt;
+          &lt;exclude name=&quot;deletecaseComponent&quot;/&gt;
+          &lt;exclude name=&quot;adddeleterecordtoCasecomponent&quot;/&gt;
+          &lt;exclude name=&quot;newrecordandexporttoCasecomponent&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Adminrelatedlistlayout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin related list layout and account related tab page test cases(Dynamic edit related list) --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Contract create wizard page test cases(Dynamic edit related list)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Contractcreatewizard&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;addSectionandfield&quot;/&gt;
+          &lt;exclude name=&quot;editSectionandfield&quot;/&gt;
+          &lt;exclude name=&quot;rearrageneFields&quot;/&gt;
+          &lt;exclude name=&quot;rearrageneSections&quot;/&gt;
+          &lt;exclude name=&quot;cloneSection&quot;/&gt;
+          &lt;exclude name=&quot;deleteSectionandfield&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Contractcreatewizard --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contract create wizard page test cases(Dynamic edit related list) --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Createcontract test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Createcontract&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;creatingContract&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Createcontract --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Createcontract test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Opprquickcreate test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Opprquickcreate&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;CreateNewOpportunity&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Opprquickcreate --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opprquickcreate test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Aprrovalprocess test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Aprrovalprocess&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;sendAprrovalprocess&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Aprrovalprocess --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Aprrovalprocess test cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Autopopulate test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fedcap.Autopopulate&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;getAccountautopopulate&quot;/&gt;
+          &lt;exclude name=&quot;getOpprautopopulate&quot;/&gt;
+          &lt;exclude name=&quot;getContactsautopopulate&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- fedcap.Autopopulate --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Autopopulate test cases --&gt;
+&lt;/suite&gt; &lt;!-- Testing FedCap --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing FedCap</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login page test case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">opp page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">opp ligthing page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Resource budge page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Pwin page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">customizeOpplayout page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">strategic Selling score card admin page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Relationship mapper page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Acoount Relationship mapper page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Admin related list layout and account related tab page test cases(Dynamic edit related list) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contract create wizard page test cases(Dynamic edit related list) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Createcontract test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Opprquickcreate test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Aprrovalprocess test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Autopopulate test cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing FedCap</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing FedCap</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_FedCap');
+function tableData_Testing_FedCap() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'fedcap.Login')
+data.setCell(0, 3, 67641);
+window.suiteTableData['Testing_FedCap']= { tableData: data, tableDiv: 'times-div-Testing_FedCap'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Testing_FedCap">
+              </div> <!-- times-div-Testing_FedCap -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing FedCap</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">73 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Createcontract</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">creatingContract</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Adminrelatedlistlayout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">editcaseComponent</span>
+                <br/>
+                <span class="ignored-method-name">newrecordandexporttoCasecomponent</span>
+                <br/>
+                <span class="ignored-method-name">deletecaseComponent</span>
+                <br/>
+                <span class="ignored-method-name">addcaseComponent</span>
+                <br/>
+                <span class="ignored-method-name">adddeleterecordtoCasecomponent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Opportunitylighting</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">changeownerOpportunity</span>
+                <br/>
+                <span class="ignored-method-name">CreateNewOpportunity</span>
+                <br/>
+                <span class="ignored-method-name">cloneOpportunity</span>
+                <br/>
+                <span class="ignored-method-name">editOpportunitybypencilicon</span>
+                <br/>
+                <span class="ignored-method-name">editOpportunitybyeditbutton</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Strategicsellingscorecardadmin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OverdueWinnabilityItems</span>
+                <br/>
+                <span class="ignored-method-name">editStageseditpage</span>
+                <br/>
+                <span class="ignored-method-name">getCurrentstatus</span>
+                <br/>
+                <span class="ignored-method-name">selectStagestandardlevel</span>
+                <br/>
+                <span class="ignored-method-name">RecentStagequestionselect</span>
+                <br/>
+                <span class="ignored-method-name">getPrintpreview</span>
+                <br/>
+                <span class="ignored-method-name">getStagenameanswer</span>
+                <br/>
+                <span class="ignored-method-name">editStagesdetailpage</span>
+                <br/>
+                <span class="ignored-method-name">addQuestions</span>
+                <br/>
+                <span class="ignored-method-name">getStagprint</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Resourcebudget</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">rsAddlab</span>
+                <br/>
+                <span class="ignored-method-name">rsAddemp</span>
+                <br/>
+                <span class="ignored-method-name">rsAddlabempnotime</span>
+                <br/>
+                <span class="ignored-method-name">rsAddexpense</span>
+                <br/>
+                <span class="ignored-method-name">rsAddlabempwithmoretime</span>
+                <br/>
+                <span class="ignored-method-name">rsCostHourScheduledHours</span>
+                <br/>
+                <span class="ignored-method-name">rsAdddeletelabemp</span>
+                <br/>
+                <span class="ignored-method-name">CreateNewEmployee</span>
+                <br/>
+                <span class="ignored-method-name">rsDisplayunit</span>
+                <br/>
+                <span class="ignored-method-name">rsStartenddatemorethan60days</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Pwin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Pwinquestion</span>
+                <br/>
+                <span class="ignored-method-name">deleteQuestionsandtheiroptions</span>
+                <br/>
+                <span class="ignored-method-name">AddiingQuestions</span>
+                <br/>
+                <span class="ignored-method-name">cloneQuestion</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Autopopulate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">getOpprautopopulate</span>
+                <br/>
+                <span class="ignored-method-name">getContactsautopopulate</span>
+                <br/>
+                <span class="ignored-method-name">getAccountautopopulate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Contractcreatewizard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cloneSection</span>
+                <br/>
+                <span class="ignored-method-name">deleteSectionandfield</span>
+                <br/>
+                <span class="ignored-method-name">editSectionandfield</span>
+                <br/>
+                <span class="ignored-method-name">addSectionandfield</span>
+                <br/>
+                <span class="ignored-method-name">rearrageneSections</span>
+                <br/>
+                <span class="ignored-method-name">rearrageneFields</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Opprquickcreate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CreateNewOpportunity</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Relationshipmapper</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">editRelationshipinformationofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">zoominoutcollapseexpandrefreshprintofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addNotestocontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addContact</span>
+                <br/>
+                <span class="ignored-method-name">editcontactRoleofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addTasktocontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addContanttooppr</span>
+                <br/>
+                <span class="ignored-method-name">fullViewofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addsubContact</span>
+                <br/>
+                <span class="ignored-method-name">sendMailfromcontactcard</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Aprrovalprocess</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">sendAprrovalprocess</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Customizeopplayout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addFields</span>
+                <br/>
+                <span class="ignored-method-name">deleteFields</span>
+                <br/>
+                <span class="ignored-method-name">editFields</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Opportunity</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">editOpportunitybypencilicon</span>
+                <br/>
+                <span class="ignored-method-name">changeownerOpportunity</span>
+                <br/>
+                <span class="ignored-method-name">CreateNewOpportunity</span>
+                <br/>
+                <span class="ignored-method-name">editOpportunitybyeditbutton</span>
+                <br/>
+                <span class="ignored-method-name">cloneOpportunity</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">fedcap.Acoountrelationshipmapper</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addNotestocontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addAccount</span>
+                <br/>
+                <span class="ignored-method-name">editRelationshipinformationofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addsubContact</span>
+                <br/>
+                <span class="ignored-method-name">zoominoutcollapseexpandrefreshprintofcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">sendMailfromcontactcard</span>
+                <br/>
+                <span class="ignored-method-name">addContacttoaccount</span>
+                <br/>
+                <span class="ignored-method-name">addTasktocontactcard</span>
+                <br/>
+                <span class="ignored-method-name">fullViewofcontactcard</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_FedCap" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">fedcap.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:fedcap.Login@65e2dbf3] ou...)</span>
+                <span class="method-start">67682 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
