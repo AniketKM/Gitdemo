@@ -10,7 +10,7 @@
         <classes>
        <class name="fedcap.Login">
        <methods>
-       <include name="login" />
+       <exclude name="login" />
        </methods>
        </class>
        </classes>
@@ -34,7 +34,7 @@
         <classes>
         <class name="fedcap.Opportunitylighting">
         <methods>
-        <exclude name="CreateNewOpportunity" />
+        <include name="CreateNewOpportunity" />
         <exclude name="editOpportunitybypencilicon" />
         <exclude name="editOpportunitybyeditbutton" />
         <exclude name="cloneOpportunity" />

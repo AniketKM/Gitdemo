@@ -61,7 +61,7 @@ public class Opportunitylighting {
 //filling data of Opportunity Summary section  
 
 		// Send Automation-Test to Opportunity Name
-		utiliesClass.sendEventsxpath("//input[@name='Name']", " Automation-Test4");
+		utiliesClass.sendEventsxpath("//input[@name='Name']", " Automation-5");
 		// Send Needs Analysis to Stage to Stage
 		utiliesClass.enterDataevent("//input[@name='StageName']");
 		// Send data Stage to Account
