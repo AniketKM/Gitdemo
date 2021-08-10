@@ -35,10 +35,10 @@
         <class name="fedcap.Opportunitylighting">
         <methods>
         <include name="CreateNewOpportunity" />
-        <exclude name="editOpportunitybypencilicon" />
-        <exclude name="editOpportunitybyeditbutton" />
-        <exclude name="cloneOpportunity" />
-        <exclude name="changeownerOpportunity" />
+        <include name="editOpportunitybypencilicon" />
+        <include name="editOpportunitybyeditbutton" />
+        <include name="cloneOpportunity" />
+        <include name="changeownerOpportunity" />
         </methods>
         </class>
         </classes>

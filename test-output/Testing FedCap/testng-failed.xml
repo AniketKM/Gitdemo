@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing FedCap]">
+  <test thread-count="5" name="opp ligthing page test cases(failed)">
+    <classes>
+      <class name="fedcap.Opportunitylighting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="editOpportunitybyeditbutton"/>
+        </methods>
+      </class> <!-- fedcap.Opportunitylighting -->
+    </classes>
+  </test> <!-- opp ligthing page test cases(failed) -->
+</suite> <!-- Failed suite [Testing FedCap] -->
